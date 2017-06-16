@@ -3186,7 +3186,7 @@
     font-size: 12px !important;
         padding: 4px 2px;
     width: 150px !important;
-    margin: 0px 0px 0px 28px;
+    margin: 0px 0px 0px 0px;
 }
 
 .Chatterfox textarea {
@@ -3195,7 +3195,7 @@
 
 .Chatterfox .Btn_Yellow {
     color: #fff !important;
-    background-color: #fa9623;
+    background-color: #ED1C24;
     border: 0;
     padding: 10px 20px;
     display: inline-block;
@@ -3226,8 +3226,8 @@
 }
 
 .Chatterfox .ChatModal_Green {
-    background: #086224 !important;
-    color: #fff !important;
+    background: #fff !important;
+    color: #000 !important;
     height: 600px;
 }
 
@@ -3282,8 +3282,8 @@
     .Chatterfox .check_image input[type="checkbox"] + label {
         display: inline-block;
         padding: 0 !important;
-        width: 22px !important;
-        height: 22px !important;
+        width: 20px !important;
+        height: 20px !important;
         margin: -1px 4px 0 0;
         vertical-align: middle;
         background: url(../images/checkFalse.png) left top no-repeat;
@@ -3296,8 +3296,9 @@
         word-wrap: normal;
         white-space: nowrap !important;        
         font-size: 12px !important;
-        color: #fff;
+        color: #000;
         background-size: 18px !important;
+        border: 1px solid;
     }
 
     .Chatterfox .check_image input[type="checkbox"]:checked + label {
@@ -3330,6 +3331,7 @@
 
 .Chatterfox .Small_Profile {
     width: 22px;
+    height: 22px;
     position: relative;
     top: -2px;
     border-radius: 30px
@@ -3342,7 +3344,6 @@
 
     .Chatterfox .FieldRow input[type="text"] {
         max-width: 82% !important;
-        border: 0 !important;
         outline: none !important;
         background: #fff !important;
         padding: 10px !important;
@@ -3353,7 +3354,6 @@
     }
 
     .Chatterfox .FieldRow input[type="email"] {
-        border: 0 !important;
         outline: none !important;
         background: #fff !important;
         padding: 10px !important;
@@ -3373,7 +3373,7 @@
         margin-top: 10px !important;
         font-weight: normal !important;
         color: #fff !important;
-        background-color: #fa9623;
+        background-color: #386996;
         border: 0;
         padding: 10px 20px;
         display: inline-block;
@@ -3387,7 +3387,7 @@
     }
 
         .Chatterfox .FieldRow .Btn_Yellow:hover {
-            background: #de9036 !important;
+            background: #6495ED !important;
         }
 
 .Chatterfox .BottomFixed {
@@ -3706,7 +3706,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 
     .Chatterfox .ItemName_BG label {
         font-size: 8px;
-        background: #37804e;
+        background: #ED1C24;
         color: #fff;
         padding: 3px 20px;
         border-radius: 4px;
@@ -3818,6 +3818,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 
     .Chatterfox .Client_Dp img {
         width: 40px;
+        height: 40px;
         border-radius: 30px;
         margin: 0;
         position: relative;
@@ -3932,12 +3933,12 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 
 .Chatterfox .MessageBox {
     padding: 7px !important;
-    border: 2px solid #086224 !important;
+    border: 2px solid #3869A1 !important;
     border-radius: 5px 0 0 5px !important;
     width: 84% !important;
     resize: none !important;
     float: left !important;
-    height: 67px !important;
+    height: 62px !important;
     outline: none !important;
     margin-left: 5px;
     color: #000 !important;
@@ -3949,10 +3950,10 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
     width: 10%;
     float: left;
     border: 0;
-    background: #086224;
+    background: #386996;
     color: #fff;
     text-align: center;
-    height: 65px !important;
+    height: 62px !important;
     border-radius: 0 5px 5px 0;
     font-size: 30px;
     cursor: pointer;
@@ -4004,7 +4005,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 .Chatterfox #EmailDropDownShow {
     position: absolute;
     width: 217px;
-    background: #086224;
+    background: #fff;
     margin-top: 1px;
     padding-top: 10px;
     right: 1px;
@@ -4032,7 +4033,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
             }
 
     .Chatterfox #EmailDropDownShow .check_image input[type="checkbox"]:checked + label {
-        color: #fff !important
+        color: #000 !important
     }
 
 .Chatterfox .BtnCloseChat {
@@ -4041,7 +4042,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 }
 
     .Chatterfox .BtnCloseChat button {
-        background: #fa9623;
+        background: #ED1C24;
         border: 0;
         padding: 5px;
         font-size: 13px;
@@ -4055,7 +4056,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
     }
 
         .Chatterfox .BtnCloseChat button:hover {
-            background: #ec9f45
+            background: #FF0000
         }
 
 .Chatterfox .ChatNotification {
@@ -4064,7 +4065,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
     bottom: 10px !important;
     height: 60px !important;
     width: 60px !important;
-    background: url(../images/Chat_icon.png) no-repeat center center #fa9623 !important;
+    background: url(../images/Chat_icon.png) no-repeat center center #ED1C24 !important;
     border-radius: 100% !important;
     text-align: center !important;
     cursor: pointer !important;
@@ -4136,7 +4137,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 }
 
 .Chatterfox .BtnIcon_chat:hover, .BtnIcon_broadCast:hover {
-    background-color: #dc7600 !important
+    background-color: #FF0000 !important
 }
 
 .Chatterfox .slectBoxBroad {
@@ -4253,7 +4254,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 }
 
 .Chatterfox .searchContact {
-    background: #086224;
+    background: #ED1C24;
     position: relative;
     border-bottom: 1px #ccc solid;
     color: #fff;
@@ -4296,12 +4297,12 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 .Chatterfox .ProfilePhoto {
     width: 35px;
     position: relative;
-    height: 26px
 }
 
     .Chatterfox .ProfilePhoto img {
         border-radius: 100%;
         width: 26px;
+        height: 26px;
         position: relative;
         left: 1px
     }
@@ -4359,7 +4360,8 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 
 .LogoDiv img {
     position: relative;
-    top: 7px;
+    top: 5px;
+    left: 10px;
     cursor: pointer
 }
 
@@ -4478,7 +4480,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
     min-height: 46px;
     position: relative;
     border-bottom: 1px #ccc solid;
-    background: #086224;
+    background: #ED1C24;
     color: #fff;
     border-left: 1px #ececec solid
 }
@@ -4583,7 +4585,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 
 .Chatterfox .ListIcons i {
     font-size: 25px;
-    color: #fed216;
+    color: #fff;
     width: 6px;
     overflow: hidden;
     display: inline-block;
@@ -4757,6 +4759,7 @@ ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
 .Chatterfox .ng-toast ul li img {
     background-size: 100%;
     width: 35px;
+    height: 35px;
     border-radius: 100%
 }
 
